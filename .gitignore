@@ -1,0 +1,24 @@
+# Build artifacts
+/target/
+
+# Runtime output and synthetic reports
+/data/
+/report.json
+/xcl.log
+*.log
+brv-synthetic-report.json
+brv-synthetic-xcl.log
+
+# Game data, packages, keys and dumps — never commit
+*.xvc
+*.msixvc
+*.xvd
+*.bk2
+*.rpf
+*.ttf
+*.wav
+*.pdb
+
+# OS files
+.DS_Store
+Thumbs.db

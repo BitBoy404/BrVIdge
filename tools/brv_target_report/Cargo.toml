@@ -1,0 +1,12 @@
+[package]
+name = "brv_target_report"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-2.0-only"
+publish = false
+
+[dependencies]
+brv_target = { path = "../../crates/brv_target" }
+gta6 = { path = "../../crates/gta6" }
+xcl = { path = "../../crates/xcl" }
+serde_json = "1"

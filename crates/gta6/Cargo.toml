@@ -1,0 +1,12 @@
+[package]
+name = "gta6"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-2.0-only"
+publish = false
+
+[dependencies]
+xcl = { path = "../xcl" }
+
+# Clean-room слой для будущей GTA VI-специфичной логики.
+# Никаких игровых файлов, ключей и утечек репозиторий не содержит.

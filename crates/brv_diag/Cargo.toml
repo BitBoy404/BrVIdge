@@ -1,0 +1,11 @@
+[package]
+name = "brv_diag"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-2.0-only"
+publish = false
+
+[dependencies]
+brv_config = { path = "../brv_config" }
+
+# Собственный код BrVIdge, перелицензирован в GPL-2.0-only для этого форка.
